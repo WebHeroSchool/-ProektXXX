@@ -1,0 +1,42 @@
+
+.app {
+  
+font-family: PT Serif;
+font-style: normal;
+font-weight: bold;
+
+}
+
+
+.list {
+
+font-family: Roboto;
+font-style: normal;
+
+}
+ 
+
+
+.title {
+   
+font-family: Roboto  ;
+font-style: normal;
+font-weight: bold;
+ 
+}
+
+.p {
+ 
+font-family: Roboto;
+font-style: normal;
+ 
+}
+
+
+.button {
+
+font-family: Roboto;
+font-style: normal;
+color: #FFFFFF; 
+
+}
