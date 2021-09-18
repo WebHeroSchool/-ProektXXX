@@ -1,42 +1,50 @@
+body {
+    margin: 0px
+ }
 
-.app {
-  
-font-family: PT Serif;
-font-style: normal;
-font-weight: bold;
-
+.wrapper {
+width: 80%;
+margin: auto;
 }
 
-
-.list {
-
-font-family: Roboto;
-font-style: normal;
-
+.logo  {
+display:inline-block;
+margin-right: 63%;
+padding: 40px 0;
 }
- 
 
+.menu {
+display:inline-block;
+display: flex;
+align-items: center;
+}
+
+.menu__item {
+padding: 0 13px;
+}
+
+.menu__item:last-child {
+padding: 0%;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+}
 
 .title {
-   
 font-family: Roboto  ;
 font-style: normal;
 font-weight: bold;
- 
 }
 
 .p {
- 
 font-family: Roboto;
 font-style: normal;
- 
 }
 
-
 .button {
-
 font-family: Roboto;
 font-style: normal;
 color: #FFFFFF; 
-
 }
