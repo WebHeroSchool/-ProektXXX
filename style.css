@@ -1,55 +1,19 @@
-body {
-margin: 0;
+@font-face {
+    font-family: "PTSerif-Bold";
+    src: url(../-ProektXXX/fonts/PTSerif-Bold.woff);
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(../-ProektXXX/fonts/Roboto-Medium.woff);
+    font-weight: normal;
+    font-style: normal;
 }
  
-.wrapper {
-     
-    width: 80%;
-    margin: auto;
-}
-
-.logo  {
-    display:inline-block;
-    margin-right: 63%;
-    padding: 40px 0;
-    font-family: 'PT Serif', serif;
-
-}
-.menu {
-    display:inline-block;
-    display: flex;
-    align-items: center;
-}
-
-.menu__item {
-    padding: 0 8px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.menu__item:last-child {
-    padding: 0%;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.title {
-    font-family: PT Serif;
-    font-style: normal;
-    font-weight: bold;
-}
-
-.content {
-font-family: 'Roboto', sans-serif;
-}
-
-.button {
-font-family: 'Roboto', sans-serif;
-color: #FFFFFF;
-}body {
+body {
     margin: 0;
     }
      
@@ -60,10 +24,14 @@ color: #FFFFFF;
     }
     
     .logo  {
-        display:inline-block;
-        margin-right: 63%;
-        padding: 40px 0;
-        font-family: 'PT Serif', serif;
+         
+        font:bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+        width: 190px;
+        height: 35px; 
+        background: url('img/logo.svg');
+         
+         
+         
     
     }
     .menu {
@@ -74,7 +42,7 @@ color: #FFFFFF;
     
     .menu__item {
         padding: 0 8px;
-        font-family: 'Roboto', sans-serif;
+        font-family: Roboto-Medium;  
     }
     
     .menu__item:last-child {
@@ -82,22 +50,23 @@ color: #FFFFFF;
     }
     
     .header {
+        padding: 40px 0;
         display: flex;
         justify-content: space-between;
     }
     
     
     .title {
-        font-family: PT Serif;
+        font-family: PTSerif-Bold;  
         font-style: normal;
         font-weight: bold;
     }
     
     .content {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto-Medium;  
     }
     
     .button {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto-Medium;  
     color: #FFFFFF;
     }
