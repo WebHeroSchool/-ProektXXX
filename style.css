@@ -1,72 +1,80 @@
-@font-face {
-    font-family: "PTSerif-Bold";
-    src: url(../-ProektXXX/fonts/PTSerif-Bold.woff);
-    font-weight: normal;
-    font-style: normal;
-    
-}
-
-@font-face {
-    font-family: "Roboto-Medium";
-    src: url(../-ProektXXX/fonts/Roboto-Medium.woff);
-    font-weight: normal;
-    font-style: normal;
+ body {
+margin: 0;
 }
  
-body {
-    margin: 0;
-    }
+.wrapper {
      
-    .wrapper {
-         
-        width: 80%;
-        margin: auto;
-    }
-    
-    .logo  {
-         
-        font:bold 24px/31px pt_serif, arial, helvetica, sans-serif;
-        width: 190px;
-        height: 35px; 
-        background: url('img/logo.svg');
-         
-         
-         
-    
-    }
-    .menu {
-        display:inline-block;
-        display: flex;
-        align-items: center;
-    }
-    
-    .menu__item {
-        padding: 0 8px;
-        font-family: Roboto-Medium;  
-    }
-    
-    .menu__item:last-child {
-        padding: 0%;
-    }
-    
-    .header {
-        padding: 40px 0;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    
-    .title {
-        font-family: PTSerif-Bold;  
-        font-style: normal;
-        font-weight: bold;
-    }
-    
-    .content {
+    width: 80%;
+    margin: auto;
+}
+
+.logo  {
+    position: relative;
+    padding: 40px 0;
+    padding-left: 44px;
+    font:bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+    width: 190px;
+    height: 35px; 
+}
+
+.logo__circle {
+    width: 28px;
+    height: 28px;
+    position: absolute; 
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.logo__circle_color_dark-blue  {
+    position: absolute;
+    left: 0;
+    transform: translateY(-80%);
+    width: 28px;
+    height: 28px;
+    background: #0056ec;
+} 
+
+.logo__circle_color_blue {
+    left: 8px;
+    top: 56px;
+    background:#c8dbfb;
+}
+
+.menu {
+    display:inline-block;
+    display: flex;
+    align-items: center;
+}
+
+.menu__item {
+    padding: 0 8px;
     font-family: Roboto-Medium;  
-    }
-    
-    .button {
-    font-family: Roboto-Medium;  
-    color: #FFFFFF;
-    }
+}
+
+.menu__item:last-child {
+    padding: 0%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.title {
+    font-family: PTSerif-Bold;  
+    font-style: normal;
+    font-weight: bold;
+}
+
+.content {
+font-family: Roboto-Medium;  
+}
+
+.button {
+font-family: Roboto-Medium;  
+color: #FFFFFF;
+}
