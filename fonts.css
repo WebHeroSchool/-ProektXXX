@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "PTSerif-Bold";
+    src: url("fonts/PTSerif-Bold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+   font-family: "Roboto-Medium" ;
+   src: url("fonts/Roboto-Medium.ttf");
+   font-weight: normal;
+   font-style: normal;
+}

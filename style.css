@@ -1,42 +1,80 @@
-
-.app {
-  
-font-family: PT Serif;
-font-style: normal;
-font-weight: bold;
-
-}
-
-
-.list {
-
-font-family: Roboto;
-font-style: normal;
-
+ body {
+margin: 0;
 }
  
+.wrapper {
+     
+    width: 80%;
+    margin: auto;
+}
+
+.logo  {
+    position: relative;
+    padding: 40px 0;
+    padding-left: 44px;
+    font:bold 24px/31px PTSerif-Bold, arial, helvetica, sans-serif;
+    width: 190px;
+    height: 35px; 
+}
+
+.logo__circle {
+    width: 28px;
+    height: 28px;
+    position: absolute; 
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.logo__circle_color_dark-blue  {
+    position: absolute;
+    left: 0;
+    transform: translateY(-80%);
+    width: 28px;
+    height: 28px;
+    background: #0056ec;
+} 
+
+.logo__circle_color_blue {
+    left: 8px;
+    top: 56px;
+    background:#c8dbfb;
+}
+
+.menu {
+    display:inline-block;
+    display: flex;
+    align-items: center;
+}
+
+.menu__item {
+    padding: 0 13px; 
+    font: 500 18px/21px roboto-medium, arial, helvetica, sans-serif;  
+}
+
+.menu__item:last-child {
+    padding: 0%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 .title {
-   
-font-family: Roboto  ;
-font-style: normal;
-font-weight: bold;
- 
+    font-family: PTSerif-Bold;  
+    font-style: normal;
+    font-weight: bold;
 }
 
-.p {
- 
-font-family: Roboto;
-font-style: normal;
- 
+.content {
+font-family: Roboto-Medium;  
 }
-
 
 .button {
-
-font-family: Roboto;
-font-style: normal;
-color: #FFFFFF; 
-
+font-family: Roboto-Medium;  
+color: #FFFFFF;
 }
